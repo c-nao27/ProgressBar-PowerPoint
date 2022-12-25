@@ -1,5 +1,6 @@
 # ProgressBar for PowerPoint
 PowerPointのVBAマクロでスライドの進行状況バーを生成します。
+![image](https://user-images.githubusercontent.com/78206853/209463476-e071bc7f-92eb-4b94-ad03-6bfc0f1a0923.png)
 
 ### Usage
 1. 適当な名前でマクロを作成する
