@@ -20,6 +20,7 @@ Sub ProgressBar()
                 height:=barHeight)
                 
             bar.Fill.ForeColor.RGB = barColor
+            bar.Line.ForeColor.RGB = barColor
             bar.Name = objectName
         Next i:
 
