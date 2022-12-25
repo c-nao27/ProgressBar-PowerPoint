@@ -11,8 +11,8 @@ PowerPointのVBAマクロでスライドの進行状況バーを生成します�
 変数名|値
 ---|---
 objectName|図形の名前
-barHeight|バーの高さ
+barHeight|バーの縦幅
 offsetTop|バーの下からの位置
-barWidth|バーの幅
+barWidth|バーの横幅
 offsetLeft|バーの左からの位置
 barColor|バーの色(RGB)
