@@ -2,6 +2,7 @@ Sub ProgressBar()
     On Error Resume Next
     With ActivePresentation
         
+        Dim objectName As String: objectName = "ProgressBar"
         Dim barHeight As Integer: barHeight = 2
         Dim offsetTop As Integer: offsetTop = 2
         Dim barWidth As Integer: barWidth = 0
@@ -9,7 +10,7 @@ Sub ProgressBar()
         Dim barColor As Long: barColor = RGB(255, 0, 0)
         
         For i = 1 To .Slides.Count
-            .Slides(i).Shapes("ProgressBar").Delete
+            .Slides(i).Shapes(objectName).Delete
             
             Set bar = .Slides(i).Shapes.AddShape( _
                 Type:=msoShapeRectangle, _
@@ -19,7 +20,7 @@ Sub ProgressBar()
                 height:=barHeight)
                 
             bar.Fill.ForeColor.RGB = barColor
-            bar.Name = "ProgressBar"
+            bar.Name = objectName
         Next i:
 
     End With
