@@ -6,7 +6,8 @@ PowerPointのVBAマクロでスライドの進行状況バーを生成します�
 1. 適当な名前(ProgressBar)を付けてマクロを作成する
 2. [ProgressBar.bas](ProgressBar.bas)の内容をコピー&ペースト
 3. 実行
-4. スライドが増減した際は、再度実行  
+4. 全画面の切替効果を「変形」にする  
+  スライドが増減した際は、再度実行
 
 ### Properties
 変数名|値
